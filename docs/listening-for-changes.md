@@ -9,7 +9,7 @@ After you have done widget loading on your web application, the next step is add
 ## Plain JavaScript
 
 ```js
-document.querySelector('bellugg-location')
+document.querySelector('bellugg-widget')
   .addEventListener('change', function (event) {
     console.log('Info from widget', event.detail[0]);
   });
@@ -19,7 +19,7 @@ document.querySelector('bellugg-location')
 ## jQuery
 
 ```js
-$('bellugg-location').on('change', function (event) {
+$('bellugg-widget').on('change', function (event) {
   console.log('Info from widget', event.detail[0]);
 });
 ```
