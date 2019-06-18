@@ -31,48 +31,25 @@ class Footer extends React.Component {
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
                 width="66"
-                height="58"
+                height="auto"
               />
             )}
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
-            </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
-            </a>
+            <a href={this.docUrl('installation')}>Getting Started</a>
+            <a href={this.docUrl('agent-api')}>Agent API Reference</a>
           </div>
           <div>
-            <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
-            </a>
-            <a
-              href="https://stackoverflow.com/questions/tagged/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Stack Overflow
-            </a>
-            <a href="https://discordapp.com/">Project Chat</a>
-            <a
-              href="https://twitter.com/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Twitter
-            </a>
+            <h5>Visit</h5>
+            <a href="https://www.bellugg.com">Bellugg Website</a>
           </div>
           <div>
-            <h5>More</h5>
-            <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
-            <a
+            <h5>Become Bellugg Partner</h5>
+            <a href="mailto:sipavich@bellugg.com">sipavich@bellugg.com</a>
+            <a href="mailto:booking@bellugg.com">booking@bellugg.com</a>
+            <a href="tel:+66873366666">Call +66 87 336 6666</a>
+            {/* <a
               className="github-button"
               href={this.props.config.repoUrl}
               data-icon="octicon-star"
@@ -82,7 +59,7 @@ class Footer extends React.Component {
               aria-label="Star this project on GitHub"
             >
               Star
-            </a>
+            </a> */}
           </div>
         </section>
 

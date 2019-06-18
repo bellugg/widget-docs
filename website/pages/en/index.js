@@ -64,7 +64,7 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}img/undraw_map_light.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
@@ -207,14 +207,14 @@ class Index extends React.Component {
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
-        <div className="mainContainer">
+        {/* <div className="mainContainer">
           <Features />
           <FeatureCallout />
           <LearnHow />
           <TryOut />
           <Description />
           <Showcase />
-        </div>
+        </div> */}
       </div>
     )
   }
