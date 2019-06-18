@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Getting Started": ["installation"],
+    "Getting Started": ["installation", "listening-for-changes"],
     "First Category": ["doc2"],
     "Second Category": ["doc3"]
   },
