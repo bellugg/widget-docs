@@ -4,6 +4,21 @@ title: Installation
 sidebar_label: Installation
 ---
 
+The first step is including a `<script>` tag before closing of the `</head>` tag in HTML page:
+
+```html
+<html>
+  <head>
+    ...
+    <script async src=""></script>
+  </head>
+  ...
+</html>
+```
+
+---
+
+.
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Lorem
