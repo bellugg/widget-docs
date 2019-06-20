@@ -39,7 +39,10 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { doc: 'installation', label: 'Docs' },
-    { doc: 'agent-api', label: 'Agent API' },
+    {
+      href: 'https://github.com/bellugg/agent-api-docs/blob/master/README.md',
+      label: 'Agent API',
+    },
     // { page: 'help', label: 'Help' },
     // { blog: true, label: 'Blog' },
     { search: true },
