@@ -1,4 +1,6 @@
 .DS_Store
+.env
+.env.*
 
 node_modules
 
@@ -8,5 +10,6 @@ lib/core/MetadataBlog.js
 website/translated_docs
 website/build/
 website/yarn.lock
+website/yarn-error.log
 website/node_modules
 website/i18n/*
