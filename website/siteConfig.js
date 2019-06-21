@@ -41,7 +41,7 @@ const siteConfig = {
     { doc: 'installation', label: 'Docs' },
     {
       href: 'https://github.com/bellugg/agent-api-docs/blob/master/README.md',
-      label: 'Agent API',
+      label: 'Partner API',
     },
     // { page: 'help', label: 'Help' },
     // { blog: true, label: 'Blog' },

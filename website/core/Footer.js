@@ -38,8 +38,8 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('installation')}>Getting Started</a>
-            <a href="https://github.com/bellugg/agent-api-docs/blob/master/README.md">
-              Agent API Reference
+            <a href="https://github.com/bellugg/partner-api-docs/blob/master/README.md">
+              Partner API Reference
             </a>
           </div>
           <div>
