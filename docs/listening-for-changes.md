@@ -47,34 +47,18 @@ $('bellugg-widget').on('change', function (event) {
 | ------------------ | ------------------- | --------------------------------------------- |
 | source             | Address &#124; null | User selected source (origin) address         |
 | destination        | Address &#124; null | User selected destination address             |
-| sourceDetails      | string              | Extra information for source (origin) address |
-| destinationDetails | string              | Extra information for destination address     |
+| sourceDetails      | string &#124; ""    | Extra information for source (origin) address |
+| destinationDetails | string &#124; ""    | Extra information for destination address     |
 
 ### Examples
+
+![](assets/listening-for-changes/widget-form-payload-examples-01.png)
 
 ```json
 {
   "source": {
-    "query": "Holiday Inn Bangkok Silom",
     "placeId": "ChIJwb3uUy2f4jARzZ5MaShGHUA",
-    "language": "en",
     "name": "Holiday Inn Bangkok Silom",
-    "description": "981 Si Lom, Khwaeng Silom, Khet Bang Rak, Krung Thep Maha Nakhon Bangkok 10500, Thailand",
-    "manuallyInput": true,
-    "lat": 13.7227351,
-    "lng": 100.5195909,
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        100.5195909,
-        13.7227351
-      ]
-    },
-    "lastFetchFromGoogle": "2019-05-29T04:50:06Z",
-    "id": 16,
-    "insertedAt": "2019-05-29T04:50:06.454Z",
-    "updatedAt": "2019-05-29T04:50:06.454Z",
-    "isCovered": true,
     "coordinate": {
       "lat": 13.7227351,
       "lng": 100.5195909
