@@ -1,5 +1,22 @@
 /* your custom css */
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.25em;
+}
+
+.toggleNav h2 i {
+  font-style: normal;
+}
+
+.projectLogo {
+  display: block;
+}
+
 .index-ctas-get-started-button {
   border-radius: 8px;
   border-width: 2px;
@@ -13,10 +30,23 @@
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
+@media only screen and (max-width: 480px) {
+  header .headerTitleWithLogo {
+    display: block !important;
+  }
+}
+
 @media only screen and (min-width: 1024px) {
 }
 
 @media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1200px) {
+  .homeContainer .homeWrapper .projectLogo {
+    justify-content: center;
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 1400px) {

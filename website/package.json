@@ -3,12 +3,13 @@
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
     "build": "docusaurus-build",
-    "publish-gh-pages": "docusaurus-publish",
+    "publish-gh-pages": "env-cmd -f .env docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
     "rename-version": "docusaurus-rename-version"
   },
   "devDependencies": {
-    "docusaurus": "^1.11.1"
+    "docusaurus": "^1.11.1",
+    "env-cmd": "^9.0.3"
   }
 }
