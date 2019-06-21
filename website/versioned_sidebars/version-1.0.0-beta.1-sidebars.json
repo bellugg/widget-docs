@@ -1,0 +1,14 @@
+{
+  "version-1.0.0-beta.1-docs": {
+    "Getting Started": [
+      "version-1.0.0-beta.1-installation",
+      "version-1.0.0-beta.1-listening-for-changes"
+    ]
+  },
+  "version-1.0.0-beta.1-docs-other": {
+    "First Category": [
+      "version-1.0.0-beta.1-doc4",
+      "version-1.0.0-beta.1-doc5"
+    ]
+  }
+}
